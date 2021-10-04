@@ -1,7 +1,16 @@
+/* **commons***  */
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
+}
+.wrap{
+    
+    width: 80%;
+    
+    margin:40px auto;
+    background-color: gray;
+    
 }
 
 .clearfix::after{
@@ -10,12 +19,16 @@
     display: table;
 }
 
-.wrap{
-    width: 80%;
-    height: 500px;
-    margin: auto;
-    background-color: gray;
-    
+.pos-abs{
+    position: absolute;
+}
+
+/* ***commmons****  */
+
+
+/* ## main container ## */
+.box img{
+    width: 100%;
 }
 
 
@@ -23,17 +36,56 @@
 
 
 .box{
+    position: relative;
     width:calc(100% / 3 - 10px);
+    height: 400px;
     float:left;
     margin: 5px;
+    margin-bottom: 100px;
+}
+
+/* ## tag ## */
+
+.heart{
+    background-color: white;
+    padding: 10px 20px;
+    top: 30px;
+    right: 0px;
+}
+
+.tag{
+    left: 0px;
+    bottom: -90px;
+    position: absolute;
+    color: white;
+}
+
+.sale{   
+    background-color: red;
+    padding: 2px 5px;
+}
+
+.sost{
+    background-color: green;
+    padding: 2px 5px;
 
 }
+/* ###/ tag ###  */
+
+.text{
+
+}
+
+
 
 
 
 /* # debug # */
 
 .box.debug{
-    background-color: yellow;
-    height: 300px;
+   border: 1px solid black;
+    }
+
+.text.debug{
+    background-color: red;
 }
