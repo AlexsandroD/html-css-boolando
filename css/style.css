@@ -42,16 +42,20 @@
     .img-container img {
         width: 100%;
     }
+
+    .img-container img{
+        transition: ease-in 2s;
+    }
     
     .img-container .back{
         display: none;
     }
-    
-    .img-container .front:hover{
+    /* ##in questo caso metter hover sul contenitore ##  */
+    .img-container:hover .front{
     display:none;
     }
     
-    .img-container .back:hover{
+    .img-container:hover .back{
         display: inline-block;
     }
     
