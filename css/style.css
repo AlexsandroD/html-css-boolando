@@ -3,13 +3,14 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .wrap{
     
     width: 80%;
     
     margin:40px auto;
-    background-color: gray;
+   
     
 }
 
@@ -27,53 +28,97 @@
 
 
 /* ## main container ## */
-.box img{
-    width: 100%;
-}
-
-
-
-
-
 .box{
     position: relative;
     width:calc(100% / 3 - 10px);
-    height: 400px;
     float:left;
     margin: 5px;
     margin-bottom: 100px;
 }
 
+
+/* ##img-container## */
+    
+    .img-container img {
+        width: 100%;
+    }
+    
+    .img-container .back{
+        display: none;
+    }
+    
+    .img-container .front:hover{
+    display:none;
+    }
+    
+    .img-container .back:hover{
+        display: inline-block;
+    }
+    
+
+    
+
+
+
+
+
+
+
+
 /* ## tag ## */
 
 .heart{
     background-color: white;
-    padding: 10px 20px;
-    top: 30px;
+    padding: 5px 15px 5px;
+    top:20px;
     right: 0px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .tag{
-    left: 0px;
-    bottom: -90px;
+    width: 40%;
     position: absolute;
+    left: 0px;
+    bottom:70px;
     color: white;
+    font-size: 10px;
+    font-weight: 400;
 }
 
 .sale{   
     background-color: red;
-    padding: 2px 5px;
+    padding: 8px 5px;
 }
 
 .sost{
     background-color: green;
-    padding: 2px 5px;
+    padding: 8px 5px;
 
 }
 /* ###/ tag ###  */
-
 .text{
+    width: 60%;
+    height: 40px;
+}
 
+.brand{
+    font-size: 15px;
+}
+
+.text .description{
+    font-size:18px;
+    text-transform: uppercase;
+
+}
+
+.text .before{
+    text-decoration: line-through;
+}
+
+.text .after{
+    color: red;
+    font-weight: 600;
 }
 
 
