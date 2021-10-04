@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.wrap{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-color: gray;
+    
+}
+
+
+
+
+
+.box{
+    width:calc(100% / 3 - 10px);
+    float:left;
+    margin: 5px;
+
+}
+
+
+
+/* # debug # */
+
+.box.debug{
+    background-color: yellow;
+    height: 300px;
+}
