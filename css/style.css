@@ -41,23 +41,54 @@
     
     .img-container img {
         width: 100%;
+     }
+
+    .bg-image1{
+        
+        background-image: url('/img/1b.webp');
+        background-size: cover;
     }
 
-    .img-container img{
-        transition: ease-in 2s;
+    .bg-image2{
+        
+        background-image: url('/img/2b.webp');
+        background-size: cover;
     }
+    .bg-image3{
+        
+        background-image: url('/img/3b.webp');
+        background-size: cover;
+    }
+    .bg-image4{
+        
+        background-image: url('/img/4b.webp');
+        background-size: cover;
+    }
+    .bg-image5{
+        
+        background-image: url('/img/5b.webp');
+        background-size: cover;
+    }
+    .bg-image6{
+        
+        background-image: url('/img/6b.webp');
+        background-size: cover;
+    }
+
+
+     .front:hover{
+         opacity: 0;
+     }
+
+     .front{
+         transition: ease-in 0.4s;
+     }
+        
+      
+    /* ##in questo caso mettere hover sul contenitore ##  */
     
-    .img-container .back{
-        display: none;
-    }
-    /* ##in questo caso metter hover sul contenitore ##  */
-    .img-container:hover .front{
-    display:none;
-    }
     
-    .img-container:hover .back{
-        display: inline-block;
-    }
+    
     
 
     
